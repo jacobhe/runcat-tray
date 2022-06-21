@@ -8,7 +8,7 @@
 #include <time.h>
 
 #include <gtk/gtk.h>
-#include <libappindicator/app-indicator.h>
+#include <libayatana-appindicator/app-indicator.h>
 
 static int FPS_H = 90;
 static int FPS_L = 6;

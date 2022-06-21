@@ -2,13 +2,13 @@
 
 # runcat-tray
 
-Is a runcat port for Linux using libappindicator.
+Is a runcat port for Kubuntu using libappindicator.
 
 (Another useless cat here..)
 
 ## requirements
 
-- libappindicator-gtk3
+- libayatana-appindicator3-dev
 
 ## build
 

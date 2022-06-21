@@ -11,7 +11,7 @@ set(CMAKE_C_FLAGS_ASAN
 
 
 find_package(PkgConfig REQUIRED)
-pkg_check_modules(APPINDICATOR REQUIRED appindicator3-0.1)
+pkg_check_modules(APPINDICATOR REQUIRED ayatana-appindicator3-0.1)
 include_directories(${APPINDICATOR_INCLUDE_DIRS})
 
 add_executable(runcat main.c)
